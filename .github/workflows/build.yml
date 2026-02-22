@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - build_version.txt
   workflow_dispatch:
 
 concurrency:
